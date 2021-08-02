@@ -1,0 +1,128 @@
+$favicons: (
+    twitter:#55acee,
+    facebook:#3a5795,
+    github:#6c7a68
+);
+
+@each $red, $color in $favicons {
+
+    .button__#{$red}{
+        background-color: $color;
+    }
+    
+}
+
+
+.tienda{
+    color: red !important;
+    font-weight: bold !important;
+}
+
+#headerProducts{
+
+font-size: 1.5em !important;
+    
+}
+.backgroundColor{
+    background-color: black;
+}
+
+.buttonAnimation:hover{
+    transform: scale(1.1,1.2);
+    background-color: seagreen;
+    transition:1s;
+
+}
+
+
+.creditCardForm {
+	max-width: 700px;
+	
+    margin: 4em 0 0 0;
+	overflow: hidden;
+	padding: 25px;
+	color: #4c4e56;
+	label {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.heading {
+		h1 {
+			text-align: center;
+			font-family: 'Open Sans', sans-serif;
+			color: #b9b9b9;
+		}
+	}
+	.payment {
+		float: left;
+		font-size: 18px;
+		padding: 10px 25px;
+		margin-top: 20px;
+		position: relative;
+		.form-group {
+			float: left;
+			margin-bottom: 15px;
+		}
+		.form-control {
+			line-height: 40px;
+			height: auto;
+			padding: 0 16px;
+		}
+		.btn {
+			width: 100%;
+			margin-top: 3px;
+			font-size: 24px;
+			background-color: #1e836f;
+			color: white;
+		}
+		select {
+			padding: 10px;
+			margin-right: 15px;
+		}
+	}
+	.owner {
+		width: 63%;
+		margin-right: 10px;
+	}
+	.CVV {
+		width: 35%;
+	}
+	#card-number-field {
+		width: 100%;
+	}
+	#expiration-date {
+		width: 49%;
+	}
+	#credit_cards {
+		width: 50%;
+		margin-top: 25px;
+		text-align: right;
+	}
+	#pay-now {
+		width: 100%;
+		margin-top: 25px;
+	}
+}
+.transparent {
+	opacity: 0.2;
+}
+@media (max-width: 650px) {
+	.creditCardForm {
+		.owner {
+			width: 100%;
+		}
+		.CVV {
+			width: 100%;
+		}
+		#expiration-date {
+			width: 100%;
+		}
+		#credit_cards {
+			width: 100%;
+			text-align: left;
+		}
+	}
+}
+label{
+    color: rgb(116, 115, 115) !important;
+}
