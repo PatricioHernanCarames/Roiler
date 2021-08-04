@@ -131,6 +131,7 @@
 }
 
 label {
+<<<<<<< HEAD
   color: #3f71a3 !important;
 }
 
@@ -141,5 +142,8 @@ div button {
 
 #nav_tienda {
   color: black !important;
+=======
+  color: #3f71a3 !imprtant;
+>>>>>>> 813a0faf6c95bfe21ce323a88c571cb8330db377
 }
 /*# sourceMappingURL=estilo2.css.map */
