@@ -36,7 +36,7 @@
   margin: 4em 0 0 0;
   overflow: hidden;
   padding: 25px;
-  color: #4c4e56;
+  color: #ffffff;
 }
 
 .creditCardForm label {
@@ -131,7 +131,6 @@
 }
 
 label {
-<<<<<<< HEAD
   color: #3f71a3 !important;
 }
 
@@ -141,9 +140,6 @@ div button {
 }
 
 #nav_tienda {
-  color: black !important;
-=======
-  color: #3f71a3 !imprtant;
->>>>>>> 813a0faf6c95bfe21ce323a88c571cb8330db377
+  color: white !important;
 }
 /*# sourceMappingURL=estilo2.css.map */
