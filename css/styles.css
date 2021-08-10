@@ -11087,7 +11087,9 @@ body {
     /*color: rgba(255, 255, 255, 0.5);*/
   }
   #mainNav .nav-link:hover {
+    transition: 1s;
     color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
   }
   #mainNav .nav-link:active {
     color: #fff;
