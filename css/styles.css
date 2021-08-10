@@ -11079,7 +11079,7 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(0, 0, 0, 0.671);
+    color: rgba(0, 0, 0);
   }
   #mainNav .nav-link {
     transition: none;
@@ -11087,9 +11087,8 @@ body {
     /*color: rgba(255, 255, 255, 0.5);*/
   }
   #mainNav .nav-link:hover {
-    transition: 1s;
-    color: rgba(0, 0, 0, 0.75);
-    font-weight: bold;
+    
+    color: rgba(0, 0, 0);
   }
   #mainNav .nav-link:active {
     color: #fff;
